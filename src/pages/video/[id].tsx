@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 import Header from '../../../components/Header';
 import Sidebar from '../../../components/Sidebar';
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 
 import thumbnail from '../../image/thumbnail/thumbnail-1.avif';
 import Link from 'next/link';
@@ -50,7 +50,7 @@ const VideoDetailPage: React.FC = () => {
             <div className="flex flex-1 bg-white justify-center">
                 <Sidebar fixed={true} />
                 {video ? (
-                    <div className=''>
+                    <div className='                                                               bvn'>
                         <div className="flex flex-1 p-6 gap-3">
                             {/* Left Section: Video Player */}
                             <div className="flex-1 text-black">

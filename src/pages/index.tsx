@@ -16,6 +16,21 @@ const HomePage: React.FC = () => {
   const videoData: VideoData[] = [
     { id: 1, title: 'How to Learn React', thumbnailUrl: thumbnail },
     { id: 2, title: 'JavaScript Tutorial', thumbnailUrl: thumbnail },
+    { id: 3, title: 'JavaScript Tutorial 2', thumbnailUrl: thumbnail },
+    { id: 4, title: 'JavaScript Tutorial 3', thumbnailUrl: thumbnail },
+    { id: 5, title: 'JavaScript Tutorial 3', thumbnailUrl: thumbnail },
+    { id: 6, title: 'JavaScript Tutorial 4', thumbnailUrl: thumbnail },
+    { id: 7, title: 'JavaScript Tutorial 5', thumbnailUrl: thumbnail },
+    { id: 8, title: 'JavaScript Tutorial 6', thumbnailUrl: thumbnail },
+    { id: 9, title: 'JavaScript Tutorial 7', thumbnailUrl: thumbnail },
+    { id: 10, title: 'JavaScript Tutorial 8', thumbnailUrl: thumbnail },
+    { id: 11, title: 'JavaScript Tutorial 9', thumbnailUrl: thumbnail },
+    { id: 12, title: 'JavaScript Tutorial 10', thumbnailUrl: thumbnail },
+    { id: 13, title: 'JavaScript Tutorial 11', thumbnailUrl: thumbnail },
+    { id: 14, title: 'JavaScript Tutorial 12', thumbnailUrl: thumbnail },
+    { id: 15, title: 'JavaScript Tutorial 13', thumbnailUrl: thumbnail },
+    { id: 16, title: 'JavaScript Tutorial 14', thumbnailUrl: thumbnail },
+    { id: 17, title: 'JavaScript Tutorial 15', thumbnailUrl: thumbnail },
     // Add more video data as needed
   ];
 
