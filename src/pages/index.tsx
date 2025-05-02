@@ -37,7 +37,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col h-screen">
       <Header />
-      <div className="flex flex-1">
+      <div className="flex flex-1 bg-white">
         <Sidebar />
         <div className="flex-1 p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-white">
           {videoData.map((video) => (
