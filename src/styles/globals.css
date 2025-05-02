@@ -22,5 +22,79 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+}
+
+.header .logo img {
+  height: 40px;
+}
+
+.header .search-bar {
+  width: 50%;
+  padding: 10px;
+}
+
+.header .user-menu img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.home-page {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.video-info {
+  padding: 10px;
+}
+
+.video-info .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.video-info .channel {
+  font-size: 0.9em;
+  color: gray;
 }
